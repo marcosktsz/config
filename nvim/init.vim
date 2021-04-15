@@ -43,6 +43,8 @@ autocmd FIleType c inoremap do(    do<ESC>o{<enter><tab><enter>}while();<ESC>ki<
      " Better Syntax Support
      Plug 'sheerun/vim-polyglot'
 
+    Plug 'tpope/vim-fugitive'
+     " bar down etc
      Plug 'vim-airline/vim-airline'
      " File Explorer
      Plug 'scrooloose/NERDTree'
